@@ -28,10 +28,50 @@ body {
     margin: 15px;
 }
 
+/* Nav Bar */
+.navbar-header {
+    background-color: forestgreen !important;
+    color: white !important;
+}
+
+.navbar {
+    background-color: forestgreen !important;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-brand {
+    background-color: forestgreen !important;
+    color: white;
+}
+
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */
     .carousel-caption {
         display: none;
+    }
+
+    /* Nav Bar */
+    .navbar-header {
+        background-color: forestgreen !important;
+        color: white !important;
+    }
+
+    .navbar {
+        background-color: forestgreen !important;
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white !important;
+    }
+
+    .navbar-inverse .navbar-brand {
+        background-color: forestgreen !important;
+        color: white;
     }
 }
